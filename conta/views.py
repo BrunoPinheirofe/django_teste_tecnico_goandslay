@@ -29,9 +29,7 @@ class UsuarioLoginView(generics.GenericAPIView):
         email = request.data.get('email')
         senha = request.data.get('senha')
         
-        
         usuario = Usuario.objects.filter(email=email).first()
-        print(usuario)
         
         if usuario is None:
             return Response({'error': 'Usuário não encontrado'}, status=status.HTTP_404_NOT_FOUND)

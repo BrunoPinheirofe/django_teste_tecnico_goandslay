@@ -29,16 +29,4 @@ class UsuarioDetailSerializer(serializers.ModelSerializer):
         model = Usuario
         fields = ['id', 'nome', 'email', 'data_nascimento']
         
-# class UsuarioUpdateSerializer(serializers.ModelSerializer):
-#     class Meta:
-#         model = Usuario
-#         fields = ['id', 'nome', 'email', 'data_nascimento']
-#         read_only_fields = ['email']
-        
-#     def update(self, instance, validated_data):
-#         instance.nome = validated_data.get('nome', instance.nome)
-#         instance.data_nascimento = validated_data.get('data_nascimento', instance.data_nascimento)
-#         instance.save()
-#         return instance
-    
-        
+
