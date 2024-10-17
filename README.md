@@ -1,4 +1,4 @@
-![1729196462849](image/README/1729196462849.png)![1729196483585](image/README/1729196483585.png)# Desafio Técnico: API de Usuários e Manipulação de Conteúdo HTML
+# Desafio Técnico: API de Usuários e Manipulação de Conteúdo HTML
 
 ## Objetivo
 
