@@ -15,7 +15,7 @@ class UsuarioCreateView(generics.CreateAPIView):
     queryset = Usuario.objects.all()
     permission_classes = [permissions.AllowAny]
 
-class UsuarioDetailView(generics.RetrieveUpdateDestroyAPIView):
+class UsuarioUpdateReadDeleteView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Usuario.objects.all()
     serializer_class = UsuarioDetailSerializer
     lookup_field = 'pk'
